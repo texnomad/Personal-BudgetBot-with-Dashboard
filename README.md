@@ -23,13 +23,13 @@ Installation:
 
 3. Set up the Telegram bot:
    - Create a bot via @BotFather on Telegram
-   - Open bot.py and replace "YOUR_TELEGRAM_BOT_TOKEN_HERE" with your actual token
+   - Open TG_Budget_Bot.py and replace "YOUR_TELEGRAM_BOT_TOKEN_HERE" with your actual token
 
 4. Start the Telegram bot:
-   python bot.py
+   python TG_Budget_Bot.py
 
 5. Start the dashboard:
-   streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+   streamlit run Streamlit_Budget_Bot.py --server.port=8501 --server.address=0.0.0.0
 
 Usage:
 
@@ -55,9 +55,10 @@ Security:
 
 Project Structure:
 
-app.py          — Streamlit dashboard
-bot.py          — Telegram bot
+Streamlit_Budget_Bot.py          — Streamlit dashboard
+TG_Budget_Bot.py          — Telegram bot
 requirements.txt — Python dependencies
 README.md       — This file
+
 
 The Budget_DB.db file is not included in the repository and is generated automatically.
