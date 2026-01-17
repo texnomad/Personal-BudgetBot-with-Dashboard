@@ -2,6 +2,8 @@ Personal Budget Dashboard
 
 A simple, local-first personal finance tracking system using Telegram for data entry and Streamlit for visualization. All data is stored locally in an SQLite database. Remote access is possible via Tailscale.
 
+This is a personal pet project for tracking finances using Telegram and Streamlit, developed with AI assistance.
+
 Features:
 - Add income and expenses via Telegram bot
 - View analytics in a Streamlit dashboard
@@ -65,3 +67,4 @@ The Budget_DB.db file is not included in the repository and is generated automat
 
 Its easy to use, by Telegram you add data to DB, when it will be shown in streamlit with good UI
 Also, if you want to see it jn other devices- you can use Tailscale
+
