@@ -62,3 +62,6 @@ README.md       — This file
 
 
 The Budget_DB.db file is not included in the repository and is generated automatically.
+
+Its easy to use, by Telegram you add data to DB, when it will be shown in streamlit with good UI
+Also, if you want to see it jn other devices- you can use Tailscale
